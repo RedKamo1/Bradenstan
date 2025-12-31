@@ -1,0 +1,51 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+.animation-bg{
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: textAnimation 5s infinite;
+}
+img{
+    display: block;
+    margin: 20px auto;
+    max-width: 10%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+@keyframes textAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.interests {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+.animation-bg{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
